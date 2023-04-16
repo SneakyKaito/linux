@@ -6,8 +6,7 @@ sudo apt upgrade
 ___________________
 -------------------
 # Install Tweaks and Extension Manager
-sudo apt install gnome-tweaks git curl
-sudo apt install gnome-shell-extension-manager
+sudo apt install gnome-tweaks git curl gnome-shell-extension-manager
 
 ___________________
 -------------------
@@ -23,7 +22,6 @@ sudo npm install -g yarn
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 
 nvm install --lts
-
 ___________________
 -------------------
 # Enable Click-to-minimize
@@ -45,7 +43,7 @@ ___________________
 	Tiling Assistant
 	Just Perfection
 	Extensions List
-
+	
 	* Pop Shell -- https://support.system76.com/articles/pop-shell/
 	
 ___________________
@@ -55,21 +53,16 @@ export PATH="/home/anup/flutter/bin:$PATH"
 ___________________
 -------------------
 # Softwares
+Download Google Chrome, VS Code as .deb package and install them
 _____
 -----
 sudo apt install telegram-desktop
 _____
 -----
-https://code.visualstudio.com/download
-	-- https://code.visualstudio.com/docs/setup/linux
------
 https://discord.com/
 -----
 https://www.vmware.com/products/workstation-pro.html
 	-- https://phoenixnap.com/kb/install-vmware-workstation-ubuntu
-----
-https://www.google.com/chrome/
-	-- https://www.geekersdigest.com/how-to-install-google-chrome-from-apt-repository/
 ----
 https://itsfoss.com/microsoft-edge-linux/
 ----
@@ -99,7 +92,6 @@ ___________________
 ** Warning: apt-key is deprecated. Manage keyring files in trusted.gpg.d instead (see apt-key(8)).
 /etc/apt/trusted.gpg **
 # SOLUTIONS
-
 https://askubuntu.com/questions/1398344/apt-key-deprecation-warning-when-updating-system
 ___________________
 -------------------
@@ -113,7 +105,6 @@ ___________________
 -------------------
 # FLatpak Ubuntu Setup:
 https://flatpak.org/setup/Ubuntu
-
 _____________________________________________________________________
 ---------------------------------------------------------------------
 # Edge Flags
@@ -139,7 +130,6 @@ add to ~/.bashrc: eval "$(starship init bash)"
 			  change ls -> ls -la
 
 
-
 Theme: https://draculatheme.com/gnome-terminal
 
 Gedit(not pre-installed on Ubuntu): https://draculatheme.com/gedit
@@ -147,84 +137,21 @@ Gedit(not pre-installed on Ubuntu): https://draculatheme.com/gedit
 
 _____________________________________________________________________
 ---------------------------------------------------------------------
-
+#SHORTCUTS
 
 Super+Shift+C -> Close Window
 Super+Enter -> Terminal
 Super+F -> File Manager
 Super+B -> Browser
 
-
-
 _____________________________________________________________________
 ---------------------------------------------------------------------
-https://github.com/vinceliuice/WhiteSur-gtk-theme
+https://github.com/vinceliuice/WhiteSur-gtk-theme.git
+https://github.com/vinceliuice/WhiteSur-icon-theme.git
 
 ./install.sh -m -t all -N glassy -l --round -i ubuntu --normal
 
 sudo ./tweaks.sh -g -f monterey
-
-
-_____________________________________________________________________
----------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-_____________________________________________________________________
----------------------------------------------------------------------
-
-
-
-
-
-
-_____________________________________________________________________
----------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-_____________________________________________________________________
----------------------------------------------------------------------
-
-
-
-
-
-
-_____________________________________________________________________
----------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-_____________________________________________________________________
----------------------------------------------------------------------
-
-
-
-
-
 
 _____________________________________________________________________
 ---------------------------------------------------------------------
