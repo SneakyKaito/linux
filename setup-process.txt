@@ -56,6 +56,10 @@ ___________________
 Download Google Chrome, VS Code as .deb package and install them
 _____
 -----
+Video Player:
+Celluloid from Flatpak
+_____
+-----
 sudo apt install telegram-desktop
 _____
 -----
